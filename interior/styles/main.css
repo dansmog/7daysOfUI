@@ -1,0 +1,68 @@
+h1,h2,h3,h4,h5,h6,a,span,p,em,button,input{font-family: 'Cutive Mono';}
+/** bootstrap nav override **/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: #fff;}
+.navbar-default .navbar-toggle {border-color: #fff;}
+.navbar{border-radius: 0;margin-bottom:0;}
+.home-nav .nav li:last-child a{background-color:#fff;border:1px solid #000; color:#000;padding-top:.3em;padding-bottom:.3em; margin-top:10px;}
+.navbar-default{background:#fff;}
+.navbar-toggle{margin-top:5px;margin-bottom:0;}
+nav{margin-bottom:0;border:none;}
+.navbar-default .navbar-nav > li > a {color: #000;}
+.nav-tabs{border-bottom: 1px solid #000;margin-top:20px;}
+.nav-tabs .active{border-bottom:4px solid  #000;}
+.nav-tabs .active a{color:#fff;}
+.nav-tabs>li>a {
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius:0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {border: 0px solid #ddd;}
+.btn, .btn-md{border-radius:0;}
+header{
+    height: 100px;
+    background-color:#fff;
+    color:#000;
+}
+
+#masthead{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/couch.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    color:#fff;
+}
+
+footer a{
+    display:block;
+    padding-top:15px;
+    color:#ccc;
+}
+
+#about h1{margin-bottom:20px;font-weight:bold;}
+#about p{line-height: 2em;font-size:20px;margin-top:20px;}
+
+/** resuable classes **/
+.col-half{width:40%;}
+.bg-white{background-color:rgba(255,255,255, 0.5); }
+.bg-ash{background-color:#f3f3f3;padding:10rem 5rem;}
+.btn-black{background-color:#000;color:#fff;font-weight: bold;}
+.equal-margin{margin:0 auto;}
+.color-white{color:#fff;}
+.no-border{border:0;}
+.no-border-radius{border-radius:0;}
+.btn-transparent__black-border{background-color:transparent;border:1px solid #fff;color:#fff;}
+.btn-white{background-color:#fff;border:1px solid #fff;color:#000;}
+
+/** margin and padding **/
+.padding-top__lg{padding-top:200px;}
+.padding-t-b__lg{padding:100px 0;}
+.padding__md{padding:12px 30px;}
+.nomargin{margin:0;}
+
+
+/** form **/
+input,button{float:left;}
+input{border:1px solid #000;}
+button{font-size:bold;}
